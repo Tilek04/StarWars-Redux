@@ -2,11 +2,17 @@
 import styles from './App.module.css';
 import cn from "classnames";
 
+import {getApiResource} from "../../utils/network"
+
+
+
 function App() {
+  
   return (
-    <h1 className={cn(styles.header, styles.text)}>
+    <h1 className={styles.header}>
      Hello world
     </h1>
+    
   );
 }
 
