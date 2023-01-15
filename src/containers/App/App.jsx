@@ -1,18 +1,16 @@
 
 import styles from './App.module.css';
-import cn from "classnames";
+
 
 import {getApiResource} from "../../utils/network"
+import PeoplePage from '../PeoplePage/PeoplePage';
 
 
 
 function App() {
   
   return (
-    <h1 className={styles.header}>
-     Hello world
-    </h1>
-    
+    <PeoplePage/>
   );
 }
 
